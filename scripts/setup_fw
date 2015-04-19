@@ -1,0 +1,19 @@
+#! /bin/sh
+
+echo "Removing modules... "
+./rmmods
+sleep 1
+
+echo "Updating firmware... "
+cd ../software/openfwwf-5.3-wifo/
+make clean
+make
+make install
+
+echo "Starting B43... "
+modprobe b43 qos=0
+sleep 1
+ifconfig wlan0 192.168.0.23 netmask 255.255.255.0
+iw reg set JP
+echo "Mounting DebugFS ..."
+mount -t debugfs none /sys/kernel/debug || echo "DebugFS is already mounted!"

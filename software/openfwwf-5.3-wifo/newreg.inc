@@ -1,0 +1,63 @@
+#define REG33 r33
+#define REG21 r21
+#define REG7 r7
+#define REG2 r2
+#define REG17 r17
+#define REG1 r1
+#define REG18 r18
+#define REG30 r30
+#define REG16 r16
+#define REG44 r44
+#define REG25 r25
+#define REG28 r28
+#define REG40 r40
+#define REG14 r14
+#define REG20 r20
+#define REG31 r31
+#define REG35 r35
+#define REG11 r11
+#define REG22 r22
+#define REG42 r42
+#define REG0 r0
+#define REG23 r23
+#define REG13 r13
+#define REG29 r29
+#define REG6 r6
+#define REG39 r39
+#define REG3 r3
+#define REG36 r36
+#define REG9 r9
+#define REG12 r12
+#define REG41 r41
+#define REG15 r15
+#define REG8 r8
+#define REG38 r38
+#define REG4 r4
+#define REG34 r34
+#define REG45 r45
+#define REG37 r37
+#define REG43 r43
+#define REG19 r19
+#define REG5 r5
+
+#define GLOBAL_FLAGS_REG3 REG20
+#define GLOBAL_FLAGS_REG1 REG44
+#define GLOBAL_FLAGS_REG2 REG45
+
+#define SHORT_RETRIES REG12
+#define LONG_RETRIES REG13
+#define CUR_CONTENTION_WIN REG5
+#define MAX_CONTENTION_WIN REG4
+#define EXPECTED_CTL_RESPONSE REG14
+#define MIN_CONTENTION_WIN REG3
+#define SHORT_RETRY_LIMIT REG6
+#define LONG_RETRY_LIMIT REG7
+#define TX_TYPE_SUBTYPE REG18
+
+#define ANTENNA_DIVERSITY_CTR REG41
+#define GPHY_SYM_WAR_FLAG REG42
+
+#define NEXT_TXE0_CTL REG17
+
+#define CURRENT_DTIM_COUNTER REG8
+#define SEQUENCE_CTR REG9

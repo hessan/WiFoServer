@@ -1,0 +1,7 @@
+#! /bin/sh
+
+rmmod b43
+rmmod mac80211
+rmmod cfg80211
+rmmod led_class
+rmmod rng_core

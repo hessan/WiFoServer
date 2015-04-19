@@ -1,0 +1,1 @@
+cmd_/test_ap/software/compat-wireless/drivers/net/b44.ko := ld -r -m elf_i386 -T /test_ap/software/linux-2.6.32.16/scripts/module-common.lds --build-id -o /test_ap/software/compat-wireless/drivers/net/b44.ko /test_ap/software/compat-wireless/drivers/net/b44.o /test_ap/software/compat-wireless/drivers/net/b44.mod.o
